@@ -51,6 +51,9 @@ web_modules/
 # Optional npm cache directory
 .npm
 
+# Misc
+function_zephyr.txt
+
 # Optional eslint cache
 .eslintcache
 

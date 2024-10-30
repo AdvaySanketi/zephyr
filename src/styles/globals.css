@@ -1,0 +1,29 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+    html {
+      -webkit-tap-highlight-color: transparent;
+    }
+  }
+
+
+body{
+    background-color: #1f1f20;
+    /* font-family: 'Noto Sans', sans-serif; */
+    font-family: 'Prompt', sans-serif;
+} 
+
+.token-page a{
+    text-decoration: underline;
+    text-decoration-color: #D9F99D;
+    text-underline-offset: 4px;
+}
+
+.token-page a:hover{
+    color: #ecfccb;
+    text-underline-offset: 2px;
+    transition: 0.2s;
+}
+
